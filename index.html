@@ -1,249 +1,170 @@
 <!DOCTYPE html>
 <html>
-        <head>
-            <meta charset="utf-8" />
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>hongsungjoo</title>
-            <!-- Compiled and minified CSS -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-            <script src="app.js"></script>
-            <!-- Compiled and minified JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        </head>
+      <head>
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <title>hongsungjoo</title>
+          <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          <script src="app.js"></script>
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      </head>
 
-        <body>
-            <!-- navbar -->
-            <!-- <nav>
-                <div class="nav-wrapper #fb8c00 orange darken-1">
-                  <a href="#" class="brand-logo"><img src="images/logo.png" style="width:100px; height:auto; vertical-align:middle; margin-left: 10px;"></a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="index.html" title="about me"><i class="tiny material-icons">child_care</i></a></li>
-                    <li><a href="portfolio.html" title="portfolio"><i class="tiny material-icons">grade</i></a></li>
-                    <li><a href="contact.html" title="contact"><i class="tiny material-icons">local_post_office</i></a></li>
-                  </ul>
-                </div>
-              </nav> -->
-              
-              <!-- floating button -->
-              <div class="fixed-action-btn" style="right: auto; bottom: auto; margin-left: 3%; margin-top: 3%;">
-                  <a class="btn-floating btn-large #fb8c00 orange darken-1">
-                    <i class="large material-icons">clear_all</i>
+      <body>
+            
+            <!-- floating button -->
+            <div class="fixed-action-btn" style="right: auto; bottom: auto; margin-left: 3%; margin-top: 3%;">
+                <a class="btn-floating btn-large #fb8c00 orange darken-1">
+                  <i class="large material-icons">clear_all</i>
+                </a>
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/sung-joo-hong-44028013b/" target="_blank" class="btn-floating red"><i class="material-icons">people_outline</i></a></li>
+                  <li><a href="#contact-page" class="btn-floating yellow darken-1"><i class="material-icons">mail_outline</i></a></li>
+                  <li><a href="#portfolio-page" class="btn-floating green"><i class="material-icons">grade</i></a></li>
+                  <li><a href="#about-page" class="btn-floating blue"><i class="material-icons">insert_emoticon</i></a></li>
+                </ul>
+              </div>
+
+              <!-- about me -->
+              <div class="row" style="padding-top: 110px;">
+                  <div class="col s1"></div>
+                  <a name="about-page">
+                  <div class="col s10">
                   </a>
-                  <ul>
-                    <li><a href="#about-me" class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                    <li><a href="#contact-page" class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                    <li><a href="#portfolio-page" class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                    <li><a href="#about-page" class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-                  </ul>
-                </div>
-
-                <!-- about me -->
-                <div class="row" style="padding-top: 110px;">
-                    <div class="col s1"></div>
-                    <div class="col s10">
-                      <div class="card horizontal #fb8c00 orange darken-1">
-                          <div class="card-image">
-                              <img src="images/profile.jpg" style="width:250px; height:auto;">
-                            </div>
-                        <div class="card-content white-text">
-                            <a name="about-page">
-                            <span class="card-title">Sung J. Hong</span>
-                            </a>
-                        <p>I currently work as a Client Support Engineer at Sailthru Inc., a SaaS marketing automation platform. I'm also a student at the Columbia Engineering's Coding Bootcamp, a Full Stack Flex Program powered by Trilogy. This website showcases my development portfolio.</p>
+                    <div class="card horizontal #fb8c00 orange darken-1">
+                        <div class="card-image">
+                          <img src="images/profile.jpg" style="width:250px; height:auto;">
                         </div>
-                      </div>
+                              <div class="card-content white-text">
+                              <span class="card-title">Sung J. Hong</span>
+                              <p>I currently work as a Client Support Engineer at Sailthru Inc., a SaaS marketing automation platform. I'm also a student at the Columbia Engineering's Coding Bootcamp, a Full Stack Flex Program powered by Trilogy. This website showcases my development portfolio.</p>
+                              </div>
                     </div>
-                    <div class="col s1"></div>
                   </div>
+                  <div class="col s1"></div>
+              </div>
 
-                  <!-- portfolio -->
-                  <div class="row" style="padding-top: 1px;">
-                      <div class="col s1"></div>
-                      <div class="col s10">
-                        <div class="card #fb8c00 orange darken-1">
-                          <div class="card-content white-text">
-                            <a name="portfolio-page">
-                            <span class="card-title">Portfolio</span>
-                            </a>
-                            
-                            <!-- Portfolio Line 1 -->
+              <!-- portfolio -->
+              <div class="row" style="padding-top: 1px;">
+                  <div class="col s1"></div>
+                    <a name="portfolio-page">
+                    <div class="col s10">
+                    </a>
+                      <div class="card #fb8c00 orange darken-1">
+                        <div class="card-content white-text">
+                          <span class="card-title">Portfolio</span>
+                          
+                          <!-- Portfolio Line 1 -->
+                          <div class="row">
+                              <div class="col s6 m5">
+                                <div class="card">
+                                  <div class="card-image">
+                                      <img class="float-left" src="images/trivia-game.png" style="width: 100%; height: auto;">
+                                    <span class="card-title"></span>
+                                  </div>
+                                  <div class="card-action">
+                                    <a href="https://musictus.github.io/TriviaGame/" target="_blank">TriviaGame</a>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col s6 m5">
+                                  <div class="card">
+                                    <div class="card-image">
+                                        <img class="float-left" src="images/giftasitc.png" style="width: 100%; height: auto;">
+                                      <span class="card-title"></span>
+                                    </div>
+                                    <div class="card-action">
+                                      <a href="https://musictus.github.io/giftastic/" target="_blank">GifTastic</a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Line 2 -->
                             <div class="row">
                                 <div class="col s6 m5">
                                   <div class="card">
                                     <div class="card-image">
-                                        <img class="float-left" src="images/trivia-game.png" style="width: 100%; height: auto;">
+                                        <img class="float-left" src="images/train.png" style="width: 100%; height: auto;">
                                       <span class="card-title"></span>
                                     </div>
                                     <div class="card-action">
-                                      <a href="https://musictus.github.io/TriviaGame/" target="_blank">TriviaGame</a>
+                                      <a href="https://musictus.github.io/train_activity/" target="_blank">TrainSchedule</a>
                                     </div>
                                   </div>
                                 </div>
-
-                                <div class="col s6 m5">
-                                    <div class="card">
-                                      <div class="card-image">
-                                          <img class="float-left" src="images/giftasitc.png" style="width: 100%; height: auto;">
-                                        <span class="card-title"></span>
-                                      </div>
-                                      <div class="card-action">
-                                        <a href="https://musictus.github.io/giftastic/" target="_blank">GifTastic</a>
-                                      </div>
-                                    </div>
-                                  </div>
+                                <div class="col s6 m5"></div>
                               </div>
 
-                              <!-- Portfolio Line 2 -->
-                              <div class="row">
-                                  <div class="col s6 m5">
-                                    <div class="card">
-                                      <div class="card-image">
-                                          <img class="float-left" src="images/train.png" style="width: 100%; height: auto;">
-                                        <span class="card-title"></span>
-                                      </div>
-                                      <div class="card-action">
-                                        <a href="https://musictus.github.io/train_activity/" target="_blank">TrainSchedule</a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col s6 m5"></div>
-                                </div>
-
-
-                          </div>
                         </div>
                       </div>
-                      <div class="col s1"></div>
                     </div>
+                    <div class="col s1"></div>
+                  </div>
 
-
-                    <!-- Contact -->
-                    <div class="container">
-                    <div class="row">
-                        <div class="col m10 offset-m1 s12">
-                            <h2 class="center-align">Contact Form</h2>
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col m6 s12">
-                                            <input id="first_name" type="text" class="validate">
-                                            <label for="first_name">First Name</label>
-                                        </div>
-                                        <div class="input-field col m6 s12">
-                                            <input id="last_name" type="text" class="validate">
-                                            <label for="last_name">Last Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col m6 s12">
-                                            <i class="mdi-content-mail prefix"></i>
-                                            <input id="email" type="email" class="validate" required>
-                                            <label for="email">Email</label>
-                                        </div>
-                                        <div class="input-field col m6 s12">
-                                            <i class="mdi-maps-store-mall-directory prefix"></i>
-                                            <input id="company" type="text" class="validate">
-                                            <label for="company">Company</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                          <textarea id="message" class="materialize-textarea"></textarea>
-                                          <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                          <label for="budget">Budget</label>
-                                          <br/>
-                                        </div>
-                                        <div class="input-field col s12">
-                                            <select class="browser-default" id="budget">
-                                              <option value="" selected disabled>Choose your option</option>
-                                              <option value="1">&lt; $4000</option>
-                                              <option value="2">$4000 - $9000</option>
-                                              <option value="3">&gt; $9000</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="divider"></div>
-                                    <div class="divider"></div>
-                                    <div class="row">
-                                        <div class="col m12">
-                                         <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
+                  <!-- Contact -->
                   <div class="row">
                       <div class="col s1"></div>
+                      <a name="contact-page">
                       <form class="col s10">
+                      </a>
                           <div class="card #fb8c00 orange darken-1">
                           <div class="card-content white-text">
-                            <a name="contact-page">
-                              <h3 class="card-title">Contact</h3>
-                            </a>
-                              <div class="row">
-                                <div class="input-field col s6">
-                                  <input id="first_name" type="text" class="validate">
-                                  <label for="first_name">First Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                  <input id="last_name" type="text" class="validate">
-                                  <label for="last_name">Last Name</label>
-                                </div>
-                              </div>
-                              
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <input id="email" type="email" class="validate">
-                                  <label for="email">Email</label>
-                                </div>
-                              </div>
+                              <span class="card-title">Contact</span>
+                  <!-- Contact -->
 
-                      </form>
-                  </div>
-                </div>
-                      <div class="col s1"></div>
+                  <div class="col s12">
+                      <div class="row">
+                          <div class="input-field">
+                              <input id="first_name" type="text" class="validate">
+                              <label for="first_name">First Name</label>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="input-field">
+                              <input id="email" type="email" class="validate" required>
+                              <label for="email">Email</label>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="input-field">
+                            <textarea id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Message</label>
+                          </div>
+                      </div>
+                    </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <p class="right-align"><button class="btn btn-large #424242 grey darken-3" type="button" name="action">Send Message</button></p>
+                        </div>
+                      </div>
                     </div>
 
-
-
-              <!-- <footer class="page-footer #fb8c00 orange darken-1">
-                <div class="container">
-                  <div class="row">
-                    <div class="col l6 s12">
-                      <h5 class="white-text">Footer Content</h5>
-                      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
                     </div>
-                    <div class="col l4 offset-l2 s12">
                     </div>
-                  </div>
-                </div>
-                <div class="footer-copyright">
-                  <div class="container">
-                  © 2018 hongsungjoo
-                  </div>
-                </div>
-              </footer> -->
 
-              <script>
-                  document.addEventListener('DOMContentLoaded', function() {
-                    var elems = document.querySelectorAll('.fixed-action-btn');
-                    var instances = M.FloatingActionButton.init(elems, {
-                      direction: 'right',
-                      hoverEnabled: false
-                    });
+                </form>
+            </div>
+      <div class="col s1"></div>
+    </div>
+
+
+
+
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                  var elems = document.querySelectorAll('.fixed-action-btn');
+                  var instances = M.FloatingActionButton.init(elems, {
+                    direction: 'right',
+                    hoverEnabled: false
                   });
-              </script>
+                });
+            </script>
 
-        </body>
+      </body>
 </html>
